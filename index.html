@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="description" content="A simple webpage example using semantic HTML tags">
+    <meta name="keywords" content="HTML, semantic tags, accessibility, SEO">
+    <meta name="author" content="Engineer Patrick Banda">
+    <title>Semantic HTML Example</title>
+    <style>
+        /* Style for images */
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #gulu{
+            background-color: blue;
+            color: white;
+        }
+
+        #bold  , #contact{
+            background-color:#D3D3D3;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="bold">
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="gulu">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at malesuada ante.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>SEO Consulting</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <div>
+                <img src="public\images\image_1.jpg" alt="cute animals">
+                <img src="public\images\image_2.jpg" alt="cute animals">
+                <img src="public\images\image_3.jpg" alt="cute animals">
+                <img src="public\images\image_4.jpg" alt="cute animals">
+                <img src="public\images\image_5.jpg" alt="cute animals">
+                <img src="public\images\image_6.jpg" alt="cute animals">
+                <img src="public\images\image_7.jpg" alt="cute animals">
+                <img src="public\images\image_8.jpg" alt="cute animals">
+                <img src="public\images\image_9.jpg" alt="cute animals">
+                <img src="public\images\image_10.jpg" alt="cute animals">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1234567890</p>
+        </section>
+        <p>&copy; 2024 Engineer Patrick Banda. All rights reserved.</p>
+    </footer>
+</body>
+</html>
